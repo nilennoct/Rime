@@ -2,4 +2,5 @@
 !*.custom.yaml
 !*.dict.yaml
 !.gitignore
+!easy_en.schema.yaml
 
