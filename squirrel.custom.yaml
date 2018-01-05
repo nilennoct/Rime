@@ -1,45 +1,56 @@
 patch:
   app_options:
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.alfredapp.Alfred:
+      ascii_mode: true
+    com.runningwithcrayons.Alfred-2:
+      ascii_mode: true
+    com.blacktree.Quicksilver:
+      ascii_mode: true
     com.apple.Terminal:
       ascii_mode: true
       no_inline: true
-    com.jetbrains.WebStorm:
-      ascii_mode: true
     com.googlecode.iterm2:
       ascii_mode: true
-    "com.runningwithcrayons.Alfred-2":
+    com.jetbrains.WebStorm:
+      ascii_mode: true
+    org.vim.MacVim:
+      ascii_mode: true
+      no_inline: true
+    com.apple.dt.Xcode:
+      ascii_mode: true
+    com.barebones.textwrangler:
+      ascii_mode: true
+    com.macromates.TextMate.preview:
+      ascii_mode: true
+    com.github.atom:
+      ascii_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true
+    com.sublimetext.2:
+      ascii_mode: true
+    org.gnu.Aquamacs:
+      ascii_mode: true
+    org.gnu.Emacs:
+      ascii_mode: true
+    co.zeit.hyper:
       ascii_mode: true
 
-  show_notifications_via_notification_center: true
   us_keyboard_layout: true
 
-  style/color_scheme: apathy
-  style/font_face: "PingFangSC-Regular,H-SiuNiu"
-  style/font_point: 16
-  style/horizontal: true
-  style/inline_preedit: true
-  style/spacing: 200
+  style:
+    color_scheme: apathy
+    horizontal: true
+    inline_preedit: true
+    spacing: 200  # space between preedit and candidates in non-inline mode
+    #candidate_format: '%c. %@'
+    font_face: 'Lucida Grande'  # supporting soft cursor '›'
+    font_point: 16
+    #label_font_face: 'STHeitiTC-Medium'
+    #label_font_point: 18
 
   preset_color_schemes:
-
-    clean_white:
-      back_color: 0xf4f4f4
-      border_height: 6
-      border_width: 6
-      candidate_format: "%c\u2005%@\u2005"
-      candidate_text_color: 0x000000
-      comment_text_color: 0x808080
-      corner_radius: 6
-      hilited_candidate_back_color: 0xf4f4f4
-      hilited_candidate_label_color: 0xa0c98915
-      hilited_candidate_text_color: 0xc98915
-      hilited_text_color: 0x000000
-      label_color: 0x888888
-      label_font_point: 12
-      label_font_face: "PingFangSC-Light"   #候选词编号字体
-      name: "简约白／Clean White"
-      text_color: 0x808080
-
     apathy:
       name: "冷漠 / Apathy"
       author: "LIANG Hai"
@@ -51,7 +62,7 @@ patch:
       border_width: 6                                    # 窗口边界宽度，大于圆角半径才生效
       back_color: 0xFFFFFF  #候选条背景色
       border_color: 0xE0B693                             # 边框色
-      font_face: "PingFangSC-Regular,H-SiuNiu"  #候选词字体
+      font_face: "Lucida Grande,PingFangSC-Regular,PingFangHK-Regular"  #候选词字体
       font_point: 16  #候选字词大小
       text_color: 0x424242  #高亮选中词颜色
       label_font_face: "SimHei"   #候选词编号字体
